@@ -1,0 +1,46 @@
+body {
+  margin: 25px;
+  margin-left: 45px;
+  color: gray;
+  font-family: arial;
+}
+strong {
+  color: black;
+}
+.total {
+  display: grid;
+  grid-template-columns: 350px 1fr
+}
+.left h1 {
+  margin-top: 0px;
+  color: brown;
+  font-size: 50px;
+}
+.left img {
+  border: 10px brown solid;
+  margin-bottom: 30px;
+}
+.left p {
+  line-height: 30px;
+}
+.right {
+  line-height: 20px;
+}
+.right h2 {
+  color: brown;
+  margin-bottom: 10px;
+}
+.right ul {
+  padding-left: 20px;
+}
+.right ol {
+  padding-left: 15px;
+  line-height: 20px;
+}
+.right ul li{
+  padding-bottom: 10px;
+}
+.right ol li {
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
